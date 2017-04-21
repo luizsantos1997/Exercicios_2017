@@ -52,21 +52,4 @@ public:
 	}
 	};
 
-int main(){
-	Lista_Circula l;
-	l.push_front(1);
-	//l.push_front(2);
-	l.push_front(3);
-	//l.push_front(4);
-	l.push_front(5);
-	//l.push_front(6);
-	l.push_front(7);
-	//l.push_front(8);
-	l.push_front(9);
-	//l.push_front(10);
-	//l.mostrar_par();
 
-	l.verificar_lista();
-	cout << "cheguei aqui " << endl;
-	return 0;
-};
