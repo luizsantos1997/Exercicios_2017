@@ -1,16 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//EXERCICIO USANDO RMI LISTA DE CONTATO(Nome,endereço,telefone);
+
 package exercicio2;
 
 import java.io.Serializable;
 
-/**
- *
- * @author 161052088
- */
+
 public class ContatoClass implements Serializable {
 
    
