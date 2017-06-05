@@ -1,3 +1,5 @@
+//EXERCICIO USANDO RMI LISTA DE CONTATO(Nome,endereço,telefone);
+
 package exercicio2;
 
 import java.rmi.registry.LocateRegistry;
