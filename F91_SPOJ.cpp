@@ -35,7 +35,7 @@ int main(){
 		
 		if (condicaoIN(data)) {
 			resultado = f91(data);
-			saida += "f91("+to_string(data)+") = "+to_string(resultado)+ '\n'; // realizar inserção no vector para print
+			saida += "f91("+to_string(data)+") = "+to_string(resultado)+ '\n'; // realizar inserÃ§Ã£o no vector para print
 			
 			count++;
 			cin >> data;
