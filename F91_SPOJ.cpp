@@ -1,12 +1,11 @@
 
 #include <iostream>
-#include <vector>
 #include <string>
 #include <string.h>
-#include <sstream>
+
 using namespace std;
 
-int f91(int n){
+int f91(int n){ // FUNÇÃO RECURSIVA
     	if (n <= 100) {
 			return f91(f91(n + 11));
 		}
@@ -14,7 +13,7 @@ int f91(int n){
 			return n - 10;
 		}
 	}
-bool condicaoIN(int n) {
+bool condicaoIN(int n) { // CONDIÇÃO DO TESTE
 	bool retorno = false;
 	if (n <= 1000000 && n > 0) {
 		retorno = true;
@@ -27,7 +26,7 @@ int main(){
 	
 	int data ;
 	
-	string saida = "";
+	string saida = ""; // APRESENTAÇÃO FORMATADA EM	COMPILAÇÃO
 	int resultado = 0;
 	int count = 1;
 	cin >> data;
