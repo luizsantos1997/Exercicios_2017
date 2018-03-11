@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool Validar(int inicio, int fim) { // FUN«√O PARA VALIDAR CONDI«√O
+bool Validar(int inicio, int fim) { // FUN√á√ÉO PARA VALIDAR CONDI√á√ÉO
 	
 	if ((1 <= inicio) && (inicio <= fim) && (fim <= 1000000000) && (fim - inicio <= 100000)) {
 		return true;
@@ -11,9 +11,9 @@ bool Validar(int inicio, int fim) { // FUN«√O PARA VALIDAR CONDI«√O
 	return false;
 }
 bool isPrime(int n) {
-	bool retorno = true; // declaraÁ„o do bool true
-	for (int i = (n-1); i > 1; i--) { // REALIZAR LOOP DE PRIMO COME«ANDO DE N-1 atÈ 2
-		if ( n % i  == 0) {       // CONDI«√O PARA ACHAR DIVISOR COM RESTO 0 == numero n È primo
+	bool retorno = true; // declara√ß√£o do bool true
+	for (int i = (n-1); i > 1; i--) { // REALIZAR LOOP DE PRIMO COME√áANDO DE N-1 at√© 2
+		if ( n % i  == 0) {       // CONDI√á√ÉO PARA ACHAR DIVISOR COM RESTO 0 == numero n √© primo
 			return false;
 		}
 		
@@ -24,7 +24,7 @@ void print_prime(int inicio, int fim) {
 	while (inicio <= fim) {
 		if (inicio == 1) { inicio++; continue; }
 		else {
-			if ( isPrime( inicio ) ) { //CHAMANDO FUN«√O isPrime com invers„o de resposta
+			if ( isPrime( inicio ) ) { //CHAMANDO FUN√á√ÉO isPrime com invers√£o de resposta
 				cout << inicio << endl;
 			} //END IF INTERNO
 		} // END ELSE
@@ -32,7 +32,7 @@ void print_prime(int inicio, int fim) {
 	} // END WHILE LOOP
 }
 
-void main() {
+int main() {
 	int array_index;
 	cin >> array_index;
 	int begin, end;
@@ -46,4 +46,5 @@ void main() {
 		cout << endl;
 		begin = 0; end = 0;
 	}
+	return 0;
 }
